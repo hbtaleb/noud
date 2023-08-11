@@ -28,7 +28,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "وضع عمودي للمنتجات في مربع المنتجات الثابتة في الصفحة الرئيسية",
-            "description": "",
+            "description": null,
             "id": "vertical_fixed_products",
             "format": "switch",
             "required": false,
@@ -57,7 +57,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "شريط علوي داكن",
-            "description": "",
+            "description": null,
             "id": "topnav_is_dark",
             "format": "switch",
             "required": false,
@@ -80,7 +80,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "الوضع الداكن",
-            "description": "",
+            "description": null,
             "id": "footer_is_dark",
             "format": "switch",
             "required": false,
@@ -103,7 +103,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "تثبيت زر الإضافة والكمية أسفل شاشة الجوال",
-            "description": "",
+            "description": null,
             "id": "sticky_add_to_cart",
             "format": "switch",
             "required": false,
@@ -114,7 +114,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "اظهار الوسوم",
-            "description": "",
+            "description": null,
             "id": "show_tags",
             "format": "switch",
             "required": false,
@@ -126,7 +126,7 @@
             "type": "items",
             "format": "dropdown-list",
             "label": "طريقة عرض الصور في سليدر صور المنتج",
-            "description": "",
+            "description": null,
             "labelHTML": null,
             "icon": "sicon-list",
             "selected": [
@@ -134,6 +134,21 @@
                     "label": "اظهار الصورة كاملةً في المنتصف (Contain)",
                     "value": "contain",
                     "key": "f4adec13-6e4c-433b-b141-b2807935ced9"
+                },
+                {
+                    "label": "تغطية الصورة كامل المساحة مع المحافظة على النسبة الصورة (Cover)",
+                    "value": "cover",
+                    "key": "e9c8ea8f-c5c6-438e-9d45-3bce269afde4"
+                },
+                {
+                    "label": "تمدد الصورة لتملئ لكامل المساحة (Fill)",
+                    "value": "fill",
+                    "key": "12e14314-b383-4912-931b-48377d51163d"
+                },
+                {
+                    "label": "عرض الصورة بحجمها الأصلي بغض النظر عن أبعاد المساحة (None)",
+                    "value": "none",
+                    "key": "cca8f441-455a-4ab9-873d-a742d1656b39"
                 }
             ],
             "options": [
