@@ -1,10 +1,10 @@
 {
     "name": {
-        "ar": "رائد",
-        "en": "Theme Raed"
+        "ar": "ثيم نود",
+        "en": "Theme Noud"
     },
-    "repository": "https://github.com/SallaApp/theme-raed",
-    "author_email": "support@salla.dev",
+    "repository": "https://github.com/hbtaleb/noud",
+    "author_email": "noud.digital@mail.ru",
     "features": [
         "mega-menu",
         "fonts",
